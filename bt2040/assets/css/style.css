@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: 200vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #268053;
+  border-bottom: 5px solid #114e11;
+}
+
+.header .header__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__banner .logo {
+  margin: 0 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header .header__banner .header__banner--head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.header .header__banner .header__banner--nav {
+  margin-top: 35px;
+  margin-right: 20px;
+  border: 0.5px solid #2fdb2f;
+  height: 42px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.header .header__banner .header__banner--nav i {
+  background-color: #59dd59;
+  color: #fff;
+  padding: 12px;
+}
+
+.header .header__banner .header__banner--nav span {
+  padding: 12px 10px;
+  color: #fff;
+}
+
+.header .header__banner .header__banner--nav:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.header .header__taskbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #5a5a5a;
+}
+
+.header .header__taskbar .header__taskbar--list {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .header__taskbar .header__taskbar--list li {
+  padding: 10px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.header .header__taskbar .header__taskbar--list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .header__taskbar .header__taskbar--list li a i {
+  margin-left: 4px;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.header .header__taskbar .header__taskbar--list li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.header .header__taskbar .header__taskbar--contact {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding: 10px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .header__taskbar .header__taskbar--contact i {
+  margin-left: 4px;
+}
+
+.header .header__taskbar .header__taskbar--contact:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.content .background-img {
+  width: 100%;
+  height: auto;
+}
+
+.content .content__help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+
+.content .content__help .help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 24px;
+  color: #fff;
+  width: 245px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.content .content__help .help i {
+  margin-right: 8px;
+}
+
+.content .content__help .help:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.content .content__help .truck {
+  background-color: #42c7c0;
+}
+
+.content .content__help .return {
+  background-color: #f53535;
+}
+
+.content .content__help .contact {
+  background-color: #55e45c;
+}
+
+.content .content__help .discount {
+  background-color: orange;
+}
+
+.content .content__main {
+  margin: 20px;
+}
+
+.content .content__main .content__main1 {
+  padding: 16px;
+  border: 1px solid #ccc;
+}
+
+.content .content__main .content__main1 .content__main--header {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .content__main .content__main1 .content__main--header .btn {
+  width: 35px;
+  height: 30px;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.content .content__main .content__main1 .product-list {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .content__main .content__main1 .product-list .product {
+  text-align: center;
+}
+
+.content .content__main .content__main1 .product-list .product h3, .content .content__main .content__main1 .product-list .product p, .content .content__main .content__main1 .product-list .product button {
+  margin: 12px 0;
+}
+
+.content .content__main .content__main1 .product-list .product img {
+  width: 269px;
+  height: 187px;
+}
+
+.content .content__main .content__main1 .product-list .product h3 {
+  color: orange;
+  font-weight: bold;
+  border: none;
+}
+
+.content .content__main .content__main1 .product-list .product button {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.content .content__main .content__main1 .product-list .product button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content .content__main .content__main1 .product-list .product button:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=style.css.map */
